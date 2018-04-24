@@ -1,0 +1,22 @@
+.count-all{
+	font-size: 12px;
+}
+.count-all .ul1 li{
+	margin-bottom: 20px;
+}
+.count-all dl{
+	padding-top: 10px;
+	margin-bottom: 40px;
+}
+.count-all dl dt{
+	margin-bottom: 20px;
+}
+.count-all dl dt b{
+	font-size: 20px;
+}
+@media screen and (min-width: 992px) {
+	.count-all{
+		width: 1000px;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,79 @@
+.count-all{
+	font-size: 12px;
+}
+.count-all .count-title b{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-bottom: 30px;
+
+}
+.count-all .all p{
+	margin-bottom: 20px;
+}
+.count-all .all .ul1{
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+.count-all .all .ul1 li:first-child,.count-all .all .ul1 li:nth-child(2),.count-all .all .ul1 li:nth-child(3),.count-all .all .ul1 li:last-child{
+	cursor: pointer;
+}
+.count-all .all .ul1 li:first-child{
+	padding-right: 20px;
+	cursor: pointer;
+}
+.count-all .all .ul1 li:nth-child(2){
+	padding-right: 40px;
+}
+.count-all .all .ul1 li:nth-child(3){
+	padding-right: 20px;
+}
+.count-all .all .ul1 li:nth-child(2) span,.count-all .all .ul1 li:nth-child(4) span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 50px;
+	color: white;
+	background: black;
+}
+.count-all .all dl dt{
+	margin-bottom: 20px;
+}
+.count-all .all dl dt b{
+	font-size: 20px;
+	color: #000000;
+	text-decoration: underline;
+}
+.count-all .all dl dd:nth-child(2){
+	display: block;
+	margin-bottom: 20px !important;
+	font-size: 16px !important;
+	font-weight: bold;
+}
+.count-all .all dl dd{
+	margin-bottom: 10px;
+}
+.count-all .all dl dd:last-child{
+	margin-bottom: 0;
+}
+.count-all .all dl dd:not(:nth-child(4)) span{
+	padding-left: 40px;
+}
+.count-all .all dl{
+	margin-bottom: 40px;
+}
+@media screen and (min-width: 992px) {
+	.count-all{
+		width: 1000px;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 767px) {
+	.count-all h4{
+		font-size: 12px !important;
+	}
+}

@@ -1,0 +1,45 @@
+.FAQS-count{
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+}
+.FAQS-count .count-header p{
+	margin-top: 30px;
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: bold;
+	color: #010101;
+	margin-bottom: 30px;
+}
+.count-header ul{
+	padding-left: 40px;
+}
+.FAQS-count .count-header .all-ul li{
+	margin-bottom: 20px;
+}
+.FAQS-count .all-title{
+	/* margin-top: 20px; */
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.FAQS-count .panel-group .panel{
+	margin-bottom: 10px;
+}
+.FAQS-count .panel-group .panel .panel-body{
+	font-size: 12px;
+	font-weight: normal;
+}
+.FAQS-count .count-footer{
+	height: 20px;
+}
+@media screen and (min-width: 992px) {
+	.FAQS-count{
+		width: 1000px;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 767px) {
+	.FAQS-count h4{
+		font-size: 12px !important;
+	}
+}

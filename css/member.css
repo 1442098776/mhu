@@ -1,0 +1,779 @@
+/* 控制右边内容显隐 */
+.centerRight1,.centerRight2,.centerRight3,.centerRight4,.centerRight5,.centerRight6,
+.centerRight7,.centerRight8,.centerRight9,.centerRight10
+{
+	display: none;
+}
+
+.memberMiddle{
+	font-family: ArialMT;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-left: 0;
+	padding-right: 0;
+}
+/* 会员中心左边内容样式 */
+.centerLeft,.centerRight{
+	padding-left: 0;
+	padding-right: 0;
+}
+/* .centerLeft{
+	background-color: #f3f4f8;
+} */
+.centerLeft>ul li:first-child{
+	height: 50px;
+	line-height: 50px;
+	color: #000;
+	/* background-color: #242626; */
+	font-size: 20px;
+	cursor: pointer;
+}
+.centerLeft>ul li:not(:first-child){
+	height: 40px;
+	line-height: 40px;
+	/* border-bottom: 1px solid #e0e0e0; */
+	color: #babcbe;
+	font-size: 16px;
+	cursor: pointer;
+	transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+}
+.centerLeft>ul li:not(:first-child):hover{
+	color: #333;
+}
+
+/* 会员中心右边内容样式 */
+.centerRight .user .user1{
+	display: none;
+}
+.centerRight>.user{
+	width: 100%;
+	padding-top:20px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+}
+.centerRight>.user>p{
+	margin-bottom: 20px;
+	font-size: 16px;
+	color: #666666;
+	padding-left: 20px;
+}
+.centerRight>.user>p>span{
+	color: #cda118 !important;
+}
+.centerRight>.user .media-left{
+	padding-right: 20px;
+}
+.centerRight .user .media-left a{
+	border: 10px solid #ffffff;
+}
+.centerRight .media-left a,.centerRight2 .media-left a{
+margin-left: 20px;
+}
+.media-left a{
+	display: inline-block;
+	width: 120px !important;
+	height: 120px;
+	padding: 0;
+	
+}
+.centerRight>.user .media{
+	color: #333333;
+}
+.centerRight>.user .media p:first-child{
+	padding-top: 10px;
+}
+.centerRight>.user .media p{
+	margin-bottom: 20px;
+}
+.orders{
+	border: 1px solid #e0e0e0;
+}
+.orders>p:first-child{
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #f5f5f5;
+	font-size: 20px;
+	color: #000000;
+	margin-bottom: 0;
+}
+.product{
+	padding-bottom: 20px;
+}
+.product>p:first-child{
+	padding-left: 20px;
+	color: #666666;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 0;
+}
+.product>p:first-child span:first-child{
+	padding-right: 20px;
+}
+.orders .media-body p:first-child{
+		padding-top: 10px;
+		font-size: 18px;
+		color: #333333;
+		font-weight: bold;
+}
+.orders .media-body p{
+	color: #666666;
+}
+.orders .media-body p:nth-child(3)>span:nth-child(2){
+	color: #000000;
+	font-weight: bold;
+}
+.orders .media-body p:nth-child(3)>span:nth-child(4){
+	cursor: pointer;
+}
+.orders .product:nth-child(3)>p{
+	border-top: 1px solid #e0e0e0;
+}
+
+.centerRight .cart{
+	width: 100%;
+	margin-top: 20px;
+}
+.cart>.cartLeft{
+	border: 1px solid #e0e0e0;
+}
+.cart>.cartRight{
+	border:1px solid #e0e0e0;
+}
+.cart>.cartLeft>p:first-child,.cart>.cartRight>p:first-child{
+	margin-bottom: 0;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	color: #000000;
+	background-color: #f5f5f5;
+}
+.cart .media{
+	margin-top: 20px;
+}
+.cart .media:first-of-type{
+	border-bottom: 1px solid #e0e0e0;
+}
+.mediap1{
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+.mediap2{
+	color: #666666;
+}
+.mediap3{
+	font-size: 18px;
+	color: #cda118;
+	font-weight: bold;
+}
+
+/* 以下是点击Personal Details这项显示的 */
+.p1{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #999;
+	color: #000;
+	font-size: 22px;
+	/* padding-left: 20px; */
+	margin-bottom: 40px;
+}
+.centerRight1 form>div p:first-of-type{
+	display: none;
+	color: red;
+	font-size: 12px;
+	padding-bottom: 5px;
+	margin-top: -10px;
+}
+.centerRight1>.details,.centerRight1>.pwd{
+	width: 400px;
+	margin-left: 40px;
+}
+.centerRight1 form label{
+	margin-bottom: 10px;
+	font-size: 16px !important;
+	color: #000000 !important;
+}
+.centerRight1 form>div:not(:nth-child(5)) input{
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	color: #999999 !important;
+	border:1px solid #cccccc;
+	border-radius: 0;
+	box-shadow: none;
+}
+.centerRight1 form>div:nth-child(6) input{
+	line-height: 20px;
+}
+.centerRight1 form input[type=radio]{
+	margin-top: 0;
+}
+.centerRight1 form input[type=radio]:last-of-type{
+	margin-left: 70px;
+} 
+.centerRight1 form button{
+	height: 50px;
+	background-color:#00a0dc;
+	color: #ffffff;
+	font-size: 18px;
+	border-radius: 0;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.centerRight1 form button:hover{
+	background-color: #ed645c;
+}
+.centerRight1>p:nth-of-type(2){
+	margin-bottom: 40px;
+}
+
+/* 以下是点击Orders & Retums这项显示的 */
+.centerRight2 .orders{
+	border: 0;
+}
+.centerRight2 .product{
+	margin-bottom: 10px;
+	border: 1px solid #e0e0e0;
+	padding-bottom: 20px; 
+}
+.centerRight2 .product>p:first-child{
+	background-color:#f5f5f5; 
+}
+.centerRight2 .product:last-of-type{
+	margin-bottom: 40px;
+}
+
+.p2{
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+/* 以下是点击Address Book这项显示的  有地址 */
+.addressBook{
+	padding: 20px;
+	width: 100%;
+	border-bottom: 0;
+	border: 1px solid #e0e0e0;
+}
+.addressBook>p{
+	margin-bottom: 20px;
+}
+.addressBook>p:first-child{
+	font-size: 18px;
+	color: #000000;
+	font-weight: bold;
+}
+.addressBook>p:nth-child(2) span:nth-child(2){
+	margin-left: 58%;
+	color: #333333;
+	font-weight: bold;
+}
+.addressBook>p:nth-child(2) span:last-child{
+	margin-left: 40px;
+	cursor: pointer;
+	color: #333333;
+	font-weight: bold;
+}
+p.add,p.add1,p.add2{
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #e0e0e0;
+	font-weight: bold;
+	cursor: pointer;
+}
+p.add:hover,p.add1:hover,p.add2:hover{
+	background-color: #ed645c;
+}
+
+/* 以下是点击Shopping Cart这项右边显示的 己加入商品的 */
+.centerRight6 .total{
+	color: #000000;
+}
+.centerRight6 .total1{
+	padding-right: 40px;
+	padding-left: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+.centerRight6 .secureCheckout a{
+	color: #ffffff;
+}
+.centerRight6 .secureCheckout{
+	display: inline-block;
+	background-color:#00a0dc;
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 40px;
+	line-height: 40px;
+}
+.centerRight6 .secureCheckout:hover{
+	background-color: #ed645c;
+}
+.centerRight6>p:nth-of-type(3){
+	color: #000000;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #cccccc;
+}
+.centerRight6>p:nth-of-type(3)>span:nth-child(2){
+	margin-left: 28%;
+	padding-right: 21%;
+}
+.centerRight6>p:nth-of-type(3)>span:nth-child(3){
+	margin-right: 11%;
+}
+.secure{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #cccccc;
+/* 	transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease; */
+}
+.secure .media-body p:first-child{
+	color: #333333;
+	font-weight: bold;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+.secure .media-body p:last-child span{
+	color: #000000;
+	font-weight: bold;
+}
+.secure .media-body p:nth-child(2){
+	color: #666666;
+}
+.secure .media-body p:last-child span:last-child{
+	cursor: pointer;
+}
+.secure .media-body p:last-child input{
+	width: 21px;
+	height: 21px;
+	padding: 0;
+	font-size: 14px;
+	background-color: white;
+}
+.secure .media-body p:last-child input:nth-of-type(1){
+	color: #cccccc;
+	border: 1px solid #cccccc;
+}
+.secure .media-body p:last-child input:nth-of-type(2){
+	color: #000000;
+	font-family: Verdana;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #cccccc;
+}
+.secure .media-body p:last-child input:last-of-type{
+	border: 1px solid #666666;
+}
+.centerRight6>p:nth-of-type(4){
+	margin-top: 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 40px;
+}
+.centerRight6>p:nth-of-type(4) span:nth-child(2){
+	margin-left: 50%;
+}
+.centerRight6>form{
+	margin-bottom: 40px;
+	float: right;
+}
+.centerRight6>form label{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+	margin-right: 10px;
+}
+.centerRight6>form>div>button:first-of-type{
+	height: 40px;
+	line-height: 40px;
+	width: 56px;
+	margin-right: 20px;
+}
+.centerRight6>form button{
+	border: 0px;
+	background-color:#00a0dc;
+	color: #ffffff;
+}
+.centerRight6>form button:hover{
+	background-color: #ed645c;
+}
+.centerRight6>form input{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	width: 246px;
+	color: #cccccc;
+	border: 1px solid #cccccc;
+}
+
+/* 以下是点击Wish List这项右边显示的 己加入商品的  */
+.centerRight8{
+	padding-bottom: 40px;
+}
+.wishList{
+	border: 1px solid #e0e0e0;
+	position: relative;
+	margin-bottom: 20px;
+	float: left;
+}
+.wishList>.media{
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-bottom:20px;
+}
+.remove3{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+.wishList>a{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #000000;
+	font-size: 16px;
+	background-color: #f5f5f5;
+	margin-bottom: 0;
+}
+.centerRight9>div:first-of-type{
+	width: 100%;
+	height: auto;
+}
+.clearfix::after{
+   display: block;
+   content: "";
+   height: 0;
+   font-size: 0;
+   overflow: hidden;
+   clear: both;
+}
+   .clearfix{
+       zoom: 1;
+}
+
+/* 以下是点击Wish List这项右边显示的 未加入商品的 暂时隐藏起来 */
+.p3{
+	color: #666666;
+	padding-left: 20px;
+}
+.centerRight10>div{
+	width: 300px;
+	height: 40px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.centerRight10>div>select{
+	width: 100%;
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #333333;
+	border: 1px solid #e0e0e0;
+}
+
+@media screen and (min-width: 992px) {
+	.memberMiddle{
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.centerLeft{
+		width: 250px;
+		margin-right: 20px;
+	}
+	.centerLeft>ul li{
+		padding-left: 60px;
+	}
+
+	.centerRight,.centerRight1,.centerRight2,.centerRight3,.centerRight4,.centerRight5,.centerRight6,.centerRight7,
+	.centerRight8,.centerRight9,.centerRight10
+	{
+		width: 930px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.centerRight .user{
+		height: 195px;
+	}
+	.centerRight>.user .media p span:nth-child(even){
+		padding-left: 30px;
+	}
+	.centerRight>.user .media p:nth-child(1) span:nth-child(3){
+		padding-left: 181px;
+	}
+	.centerRight>.user .media p:nth-child(2) span:nth-child(3){
+		padding-left: 60px;
+	}
+	.centerRight>.user .media p:nth-child(3) span:nth-child(3){
+		padding-left: 125px;
+	}
+	.orders .media-body p:nth-child(3){
+		padding-left: 200px;
+	}
+	.orders .media-body p:nth-child(3)>span:nth-child(2){
+		padding-left: 90px;
+	}
+	.orders .media-body p:nth-child(3)>span:nth-child(3){
+		padding-left: 100px;
+	}
+	.orders .media-body p:nth-child(3)>span:nth-child(4){
+		margin-left: 130px;
+	}
+
+	.memberMiddle .cart{
+		height: 400px;
+	}
+	.cart>.cartLeft{
+		margin-right: 20px;
+	}
+	.cart>.cartLeft,.cart>.cartRight{
+		width: 455px;
+		height: 372px;
+	}
+	.product>p:first-child{
+		height: 40px;
+		line-height: 40px;
+	}
+
+	/* 以下是点击Shopping Cart这项右边显示的 己加入商品的 */
+	.secure .media-body p:nth-child(3) span:first-child{
+		padding-left: 23%;
+		margin-right: 23%;
+	}
+	.secure .media-body p:nth-child(3) span:nth-of-type(2){
+		padding-left: 11%;
+		margin-right: 12%;
+	}
+
+	/* 以下是点击Wish List这项右边显示的 己加入商品的  */
+	.wishList{
+		width: 453px;
+	}
+	.wishList:nth-of-type(odd){
+		margin-right: 20px;
+	}
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.container{
+		width: 100%;
+	}
+	.centerLeft{
+		width: 21%;
+		margin-right: 1%;
+	}
+	.centerRight{
+		width: 78%;
+	}
+	.centerLeft ul li{
+		padding-left: 5%;
+	}
+	.centerRight>.orders .media-body p:nth-child(3){
+		padding-left: 30%;
+	}
+	.centerRight>.orders .media-body p:nth-child(3)>span:nth-child(2){
+		padding-left: 10%;
+	}
+	.centerRight>.orders .media-body p:nth-child(3)>span:nth-child(3){
+		padding-left: 10%;
+	}
+	.centerRight>.orders .media-body p:nth-child(3)>span:nth-child(4){
+		margin-left: 10%;
+	}
+	.cart>.cartLeft,.cart>.cartRight{
+		width: 49%;
+	}
+	.cart>.cartLeft{
+		margin-right: 2%;
+	}
+	.cart{
+		height: 400px;
+	}
+	.product>p:first-child{
+		height: 40px;
+		line-height: 40px;
+	}
+
+	/* 以下是点击Shopping Cart这项右边显示的 己加入商品的 */
+	.secure .media-body p:nth-child(3) span:first-child{
+		padding-left: 15%;
+		margin-right: 15%;
+	}
+	.secure .media-body p:nth-child(3) span:nth-of-type(2){
+		padding-left: 10%;
+		margin-right: 10%;
+	}
+	.centerRight6>p:nth-of-type(4)>span:nth-child(2){
+		margin-left: 40%;
+	}
+
+	/* 以下是点击Wish List这项右边显示的 己加入商品的  */
+	.wishList{
+		width: 49%;
+	}
+	.wishList:nth-of-type(odd){
+		margin-right: 2%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.centerLeft{
+		height: 100% !important;
+	}
+	.centerLeft>ul li{
+		padding-left: 10%;
+	}
+	.centerRight>.user>.media{
+		display: none;
+	}
+	.centerRight>.user .user1{
+		display: block;
+		padding-bottom: 20px;
+	}
+	.centerRight>.user .user1 a{
+		display: inline-block;
+		width: 120px;
+		height: 120px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+		border: 10px solid #ffffff;
+	}
+	.centerRight>.user .user1 p{
+		padding-left: 20px;
+	}
+	.centerRight1{
+		padding-right: 0;
+	}
+	.centerRight1 .details,.centerRight1 .pwd{
+		width: 100%;
+		margin-left: 5%;
+		padding-right: 10%;
+	}
+
+	.product>p:first-child{
+		padding:5px 20px;
+	}
+	 .centerRight2{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.product .media-left a{
+		display: inline-block;
+		margin-left: 2%;
+		padding-top: 10px;
+		width: 80px !important;
+		height: 80px;
+	}
+	.product .media-left a img{
+		width: 100%;
+	} 
+
+	/* 以下是点击Address Book这项显示的  有地址 */
+	.centerRight4{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.addressBook{
+		padding: 10px;
+	}
+	.addressBook>p:nth-child(2) span:first-child{
+		display: inline-block;
+		width: 60%;
+	}
+	.addressBook>p:nth-child(2) span:nth-child(2){
+		margin-left: 5%;
+		color: #333333;
+		font-weight: bold;
+	}
+	.addressBook>p:nth-child(2) span:last-child{
+		margin-left: 15px;
+	}
+
+	/* 以下是点击Shopping Cart这项右边显示的 己加入商品的 */
+	.centerRight6{
+		padding-left: 5px;
+		padding-right: 0;
+	}
+	.centerRight6>p:nth-of-type(2) span:last-child{
+		margin-top: 10px;
+	}
+	.centerRight6>p:nth-of-type(3) span:nth-child(2){
+		margin-left: 10%;
+		padding-right: 10%;
+	}
+	.centerRight6>p:nth-of-type(3) span:nth-child(3){
+		margin-right: 5%;
+	}
+	.secure .media-left a{
+		display: inline-block;
+		width: 80px !important;
+		height: 80px;
+	}
+	.secure .media-left a img{
+		width: 100%;
+		height: 100%;
+	}
+	.secure input[type='text']{
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	.secure .media-body>p:nth-child(3) span:first-child{
+		margin-right: 3%;
+	}
+	.secure .media-body>p:nth-child(3) span:nth-of-type(2),.secure .media-body>p:nth-child(3) span:last-of-type{
+		margin-left: 3%;
+	}
+	.centerRight6>p:nth-of-type(4)>span:nth-of-type(2){
+		margin-left: 10% ;
+	}
+	.centerRight6>form{
+		padding-left: 15px;
+	}
+	.centerRight6>form label,.centerRight6 input[type='text']{
+		margin-bottom: 10px;
+	}
+
+	/* 以下是点击Wish List这项右边显示的 己加入商品的 */
+	.centerRight8{
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	/* 以下是点击Wish List这项右边显示的 未加入商品的 暂时隐藏起来 */
+	.centerRight10>div{
+		width: 270px;
+	}
+}
+@media screen and (max-width: 319px) {
+	.secure .media-body>p:nth-child(3) span:first-child{
+		margin-right: 28%;
+	}
+	.secure .media-body>p:nth-child(3) span:nth-of-type(2){
+		margin-left: 0;
+	}
+	.secure .media-body>p:nth-child(3) span:last-of-type{
+		margin-left:50%;
+	}
+	.centerRight6>p:nth-of-type(4)>span:nth-of-type(2){
+		margin-left:5% ;
+	}
+	.centerRight6>form{
+		padding-left: 15px;
+	}
+}
